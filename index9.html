@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+		<div style="color:green;font-size:59px;">
+		<script language="JavaScript">
+		var D1_bur=prompt("dzien1= ","");
+		var D2_bur=prompt("dzien2= ","");
+		var G1_bur=prompt("godzina1= ","");
+		var G2_bur=prompt("godzina2= ","");
+		var suma;
+		var a=parseFloat(D1_bur);
+		var b=parseFloat(D2_bur);
+		var c=parseFloat(G1_bur);
+		var d=parseFloat(G2_bur);
+		suma=(a*86400+c*3600)-(b*86400+d*3600);
+		document.write("ilosc sekund = "+suma+"<br>");
+		</script>
+		</div>
+	</body>
+</html>
